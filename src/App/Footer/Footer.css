@@ -1,0 +1,22 @@
+.footer_small_screen {
+    text-align: start;
+}
+
+.social_media_icons {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+@media (max-width:767px) {
+    .footer_small_screen {
+        text-align: center;
+    }
+
+    .social_media_icons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}

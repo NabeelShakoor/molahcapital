@@ -1,0 +1,28 @@
+.collapse {
+    flex-grow: 0;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.unactive {
+    opacity: 1;
+    transition: border-bottom 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    border-bottom: 2px solid transparent;
+    margin: 0 10px;
+}
+
+.unactive:hover {
+    opacity: 1;
+    border-bottom: 2px solid white;
+    margin: 0 10px;
+}
+
+.active {
+    opacity: 1;
+    transition: border-bottom 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    border-bottom: 2px solid white;
+    /* Visible border */
+    margin: 0 10px;
+}

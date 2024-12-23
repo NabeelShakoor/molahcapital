@@ -1,0 +1,23 @@
+.form_Pop {
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.224);
+    border-radius: 10px;
+}
+
+
+.form_Pop_child {
+    margin-top: 110px;
+}
+
+@media (max-width: 767px) {
+    .form_Pop {
+        width: 95%;
+        background-color: rgba(255, 255, 255, 0.224);
+        border-radius: 10px;
+    }
+
+    .form_Pop_child {
+        margin-top: 20px;
+    }
+
+}

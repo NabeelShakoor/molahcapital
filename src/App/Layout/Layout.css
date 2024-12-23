@@ -1,0 +1,8 @@
+.content {
+    margin-top: 91.96px;
+    height: calc(100vh - 91.96px);
+}
+
+.page {
+    height: 100vh;
+}

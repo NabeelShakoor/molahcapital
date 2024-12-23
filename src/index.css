@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  /* font-family: Instrument Serif; */
+  font-family: "Newsreader", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+  background-color: #680107;
+}
+
+code {
+  font-family: Instrument Serif;
+  color: white;
+}
+
+:root {
+  --primary: #680107;
+  --blue: #265f80;
+  --primary-light: #680106a0;
+  --white: 'white'
+}
+
+.text-red {
+  color: var(--primary);
+}
+
+.primary {
+  background-color: var(--primary);
+}
+
+.primary-light {
+  background-color: var(--primary-light);
+}
+
+.light {
+  color: var(--light);
+}
+
+.blue {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.red {
+  background-color: #680107;
+}
+
+.grey {
+  background-color: grey;
+}
+
+.blue {
+  background-color: #265f80;
+}
+
+.hover-button {
+  height: 35px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  width: 140px;
+  align-items: center;
+  padding: 5px;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), var(--blue));
+  background-size: 200% 100%;
+  transition: background-position 0.7s;
+  border: 1px solid white;
+}
+
+.hover-button:hover {
+  background-position: -100% 0;
+  color: #fff;
+}
